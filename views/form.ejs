@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <title>Form</title>
+  </head>
+  <body style="background-color: #CBEDD5;">
+    <nav id="mainNavBar"
+    style="background-color: #36e642">
+      <div class="nav nav-tabs" id="nav-tab" role="tablist" style=" padding: 2rem 0rem 2rem; ">
+        <a class="nav-item nav-link active" id="nav-fill-in-tab" data-toggle="tab" href="#nav-fill-in" role="tab" aria-controls="nav-home" aria-selected="true" style="font-size: 1.1rem; padding: 1% 6% 1%; background-color:#36e642 ;">Fill-in</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="font-size: 1.1rem; padding: 1% 6% 1%;">Your Profile</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-fill-in" role="tabpanel" aria-labelledby="nav-home-tab">
+
+        <form class="info" style=" margin-left:1rem; margin-right:1rem" method="post" action="/">
+          <h3>General information:</h3>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Fullname</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="Fullname" placeholder="Enter your Fullname">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Headline</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="Headline" placeholder="Enter your Headline">
+            </div>
+          </div>
+
+          <h3>Experience:</h3>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Company Name</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="companyname" placeholder="Enter your company name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Position</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="position" placeholder="Enter your position">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Date of joining</label>
+            <div class="col-sm-10">
+              <input type="date" name="joiningdate">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Date of resigning</label>
+            <div class="col-sm-10">
+              <input type="date" name="resigningdate">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Work Description</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="workdescription" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Used Skills</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="usedskills" placeholder=" ">
+            </div>
+          </div>
+
+          <h3>Add Project:</h3>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Project Title</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="projecttitle" placeholder="Enter your project title">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Project URL</label>
+            <div class="col-sm-10">
+            <input type="string" class="form-control" name="projecturl" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Project Description</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="projectdescription" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Project Duration</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" name="projectduration" placeholder="Enter the duration in number of months">
+            </div>
+          </div>
+
+          <h3>Add Liscences and Certificates</h3>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Cetrificate Name</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="certificatename" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Issuing Organistaion</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="certificateissuingorganisation" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Certificate Link</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="certificatelink" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Issue Date</label>
+            <div class="col-sm-10">
+              <input type="date"  name="certificateissuedate" >
+            </div>
+          </div>
+
+          <h3>Add course</h3>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="coursename" placeholder=" ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Issuing Organistaion</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="courseissuingorganistaion" placeholder=" ">
+            </div>
+          </div>
+
+          <h3>Contact info</h3>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="email" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Phone</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" name="phone" placeholder="Enter your phone number ">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label  class="col-sm-2 col-form-label">Skype ID</label>
+            <div class="col-sm-10">
+              <input type="string" class="form-control" name="skypeid" placeholder="Enter your Skype ID ">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="container-fluid">
+          
+          <div class="form-group row">
+            <p>Here I will display the data for the person who has logged in using his/her mobile number. I will do that by using the findone() method in which I will pass the mobile number. I did not make the login page as I really dont have any idea of using authentication via OTP. I hope I will get to gain the knowledge what I lack.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
